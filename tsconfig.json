@@ -1,0 +1,27 @@
+/**
+ * es2016 Array.prototype.includes 幂运算: 2 ** 3
+ * es2017 异步函数(Async/Await) 共享内存和原子(Shared memory and atomics) 
+ * Object.values() Object.entries() 字符串填充(padStart 和 padEnd) 
+ * Object.getOwnPropertyDescriptors() 尾逗号(Trailing commas)
+ */
+{
+    // https://www.tslang.cn/docs/handbook/compiler-options.html
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017", // 目标代码版本
+        "strict": true, // 启用所有严格类型检查选项
+        "removeComments": true,
+        "preserveConstEnums": true, // 生成的代码不删除常量枚举
+        "moduleResolution": "node", // 模块解析策略 
+        "sourceMap": true,
+        "sourceRoot": "src",
+        "outDir": "dist",
+        "baseUrl": "."
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
