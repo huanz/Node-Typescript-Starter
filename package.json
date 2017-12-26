@@ -32,20 +32,20 @@
   },
   "homepage": "https://github.com/huanz/Node-Typescript-Starter#readme",
   "dependencies": {
-    "@types/koa-bodyparser": "^3.0.26",
-    "@types/koa-helmet": "^3.1.2",
     "debug": "^3.1.0",
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
     "koa-helmet": "^3.3.0",
     "koa-router": "^7.3.0",
-    "mongoose": "^4.13.6"
+    "mongoose": "^4.13.7"
   },
   "devDependencies": {
-    "@types/koa": "^2.0.42",
+    "@types/koa": "^2.0.43",
     "@types/koa-router": "^7.0.27",
-    "@types/mongoose": "^4.7.28",
-    "nodemon": "^1.12.5",
+    "@types/koa-bodyparser": "^3.0.26",
+    "@types/koa-helmet": "^3.1.2",
+    "@types/mongoose": "^4.7.30",
+    "nodemon": "^1.14.3",
     "tslint": "^5.8.0",
     "typescript": "^2.6.2"
   },

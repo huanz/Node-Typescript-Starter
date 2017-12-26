@@ -1,8 +1,9 @@
+import * as Koa from 'koa';
 import * as Router from 'koa-router';
 
-const router = new Router();
+const router: Router = new Router();
 
-router.get('/', (ctx, next) => {
+router.get('/', (ctx: Koa.Context, next: Function) => {
     ctx.body = 'hello';
 });
 
