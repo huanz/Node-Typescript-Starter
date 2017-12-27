@@ -9,10 +9,11 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es2017", // 目标代码版本
-        "strict": true, // 启用所有严格类型检查选项
         "removeComments": true,
         "preserveConstEnums": true, // 生成的代码不删除常量枚举
-        "moduleResolution": "node", // 模块解析策略 
+        "moduleResolution": "node", // 模块解析策略
+        "experimentalDecorators": true, // 启用实验性的ES装饰器。
+        "emitDecoratorMetadata": true, // 给装饰器声明加上设计类型元数据
         "sourceMap": true,
         "sourceRoot": "src",
         "outDir": "dist",
